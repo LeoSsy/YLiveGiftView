@@ -7,18 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A69E6291FE7A3D00068DCBC /* YChanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6201FE7A3D00068DCBC /* YChanelView.m */; };
-		2A69E62A1FE7A3D00068DCBC /* YChanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6201FE7A3D00068DCBC /* YChanelView.m */; };
-		2A69E62B1FE7A3D00068DCBC /* YChanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6201FE7A3D00068DCBC /* YChanelView.m */; };
-		2A69E62C1FE7A3D00068DCBC /* YGiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6221FE7A3D00068DCBC /* YGiftLabel.m */; };
-		2A69E62D1FE7A3D00068DCBC /* YGiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6221FE7A3D00068DCBC /* YGiftLabel.m */; };
-		2A69E62E1FE7A3D00068DCBC /* YGiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6221FE7A3D00068DCBC /* YGiftLabel.m */; };
-		2A69E62F1FE7A3D00068DCBC /* YGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6251FE7A3D00068DCBC /* YGiftModel.m */; };
-		2A69E6301FE7A3D00068DCBC /* YGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6251FE7A3D00068DCBC /* YGiftModel.m */; };
-		2A69E6311FE7A3D00068DCBC /* YGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6251FE7A3D00068DCBC /* YGiftModel.m */; };
-		2A69E6321FE7A3D00068DCBC /* YLiveGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6281FE7A3D00068DCBC /* YLiveGiftView.m */; };
-		2A69E6331FE7A3D00068DCBC /* YLiveGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6281FE7A3D00068DCBC /* YLiveGiftView.m */; };
-		2A69E6341FE7A3D00068DCBC /* YLiveGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69E6281FE7A3D00068DCBC /* YLiveGiftView.m */; };
+		2A95A4691FE7A93F006331C3 /* YChanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F831FE7A8C700D3822A /* YChanelView.m */; };
+		2A95A46B1FE7A93F006331C3 /* YGiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F801FE7A8C600D3822A /* YGiftLabel.m */; };
+		2A95A46D1FE7A93F006331C3 /* YGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F8A1FE7A8CE00D3822A /* YGiftModel.m */; };
+		2A95A46F1FE7A93F006331C3 /* YLiveGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F901FE7A8D600D3822A /* YLiveGiftView.m */; };
 		2AC7A3761FE3C51700AC9814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7A3751FE3C51700AC9814 /* AppDelegate.m */; };
 		2AC7A3791FE3C51700AC9814 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7A3781FE3C51700AC9814 /* ViewController.m */; };
 		2AC7A37C1FE3C51700AC9814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC7A37A1FE3C51700AC9814 /* Main.storyboard */; };
@@ -27,6 +19,14 @@
 		2AC7A3841FE3C51700AC9814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7A3831FE3C51700AC9814 /* main.m */; };
 		2AC7A38E1FE3C51700AC9814 /* YLiveGiftViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7A38D1FE3C51700AC9814 /* YLiveGiftViewTests.m */; };
 		2AC7A3991FE3C51700AC9814 /* YLiveGiftViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7A3981FE3C51700AC9814 /* YLiveGiftViewUITests.m */; };
+		2AD47F851FE7A8C700D3822A /* YGiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F801FE7A8C600D3822A /* YGiftLabel.m */; };
+		2AD47F861FE7A8C700D3822A /* YGiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F801FE7A8C600D3822A /* YGiftLabel.m */; };
+		2AD47F881FE7A8C700D3822A /* YChanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F831FE7A8C700D3822A /* YChanelView.m */; };
+		2AD47F891FE7A8C700D3822A /* YChanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F831FE7A8C700D3822A /* YChanelView.m */; };
+		2AD47F8D1FE7A8CE00D3822A /* YGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F8A1FE7A8CE00D3822A /* YGiftModel.m */; };
+		2AD47F8E1FE7A8CE00D3822A /* YGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F8A1FE7A8CE00D3822A /* YGiftModel.m */; };
+		2AD47F921FE7A8D600D3822A /* YLiveGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F901FE7A8D600D3822A /* YLiveGiftView.m */; };
+		2AD47F931FE7A8D600D3822A /* YLiveGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F901FE7A8D600D3822A /* YLiveGiftView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A69E61F1FE7A3D00068DCBC /* YChanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YChanelView.h; sourceTree = "<group>"; };
-		2A69E6201FE7A3D00068DCBC /* YChanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YChanelView.m; sourceTree = "<group>"; };
-		2A69E6211FE7A3D00068DCBC /* YGiftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGiftLabel.h; sourceTree = "<group>"; };
-		2A69E6221FE7A3D00068DCBC /* YGiftLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGiftLabel.m; sourceTree = "<group>"; };
-		2A69E6241FE7A3D00068DCBC /* YGiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGiftModel.h; sourceTree = "<group>"; };
-		2A69E6251FE7A3D00068DCBC /* YGiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGiftModel.m; sourceTree = "<group>"; };
-		2A69E6271FE7A3D00068DCBC /* YLiveGiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLiveGiftView.h; sourceTree = "<group>"; };
-		2A69E6281FE7A3D00068DCBC /* YLiveGiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLiveGiftView.m; sourceTree = "<group>"; };
 		2AC7A3711FE3C51700AC9814 /* YLiveGiftView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLiveGiftView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC7A3741FE3C51700AC9814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AC7A3751FE3C51700AC9814 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +63,14 @@
 		2AC7A3941FE3C51700AC9814 /* YLiveGiftViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLiveGiftViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC7A3981FE3C51700AC9814 /* YLiveGiftViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLiveGiftViewUITests.m; sourceTree = "<group>"; };
 		2AC7A39A1FE3C51700AC9814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD47F801FE7A8C600D3822A /* YGiftLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGiftLabel.m; sourceTree = "<group>"; };
+		2AD47F811FE7A8C600D3822A /* YChanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YChanelView.h; sourceTree = "<group>"; };
+		2AD47F821FE7A8C700D3822A /* YGiftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGiftLabel.h; sourceTree = "<group>"; };
+		2AD47F831FE7A8C700D3822A /* YChanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YChanelView.m; sourceTree = "<group>"; };
+		2AD47F8A1FE7A8CE00D3822A /* YGiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGiftModel.m; sourceTree = "<group>"; };
+		2AD47F8B1FE7A8CE00D3822A /* YGiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGiftModel.h; sourceTree = "<group>"; };
+		2AD47F8F1FE7A8D600D3822A /* YLiveGiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLiveGiftView.h; sourceTree = "<group>"; };
+		2AD47F901FE7A8D600D3822A /* YLiveGiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLiveGiftView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,45 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A69E61D1FE7A3D00068DCBC /* YLiveGiftView */ = {
-			isa = PBXGroup;
-			children = (
-				2A69E61E1FE7A3D00068DCBC /* componets */,
-				2A69E6231FE7A3D00068DCBC /* mode */,
-				2A69E6261FE7A3D00068DCBC /* view */,
-			);
-			path = YLiveGiftView;
-			sourceTree = "<group>";
-		};
-		2A69E61E1FE7A3D00068DCBC /* componets */ = {
-			isa = PBXGroup;
-			children = (
-				2A69E61F1FE7A3D00068DCBC /* YChanelView.h */,
-				2A69E6201FE7A3D00068DCBC /* YChanelView.m */,
-				2A69E6211FE7A3D00068DCBC /* YGiftLabel.h */,
-				2A69E6221FE7A3D00068DCBC /* YGiftLabel.m */,
-			);
-			path = componets;
-			sourceTree = "<group>";
-		};
-		2A69E6231FE7A3D00068DCBC /* mode */ = {
-			isa = PBXGroup;
-			children = (
-				2A69E6241FE7A3D00068DCBC /* YGiftModel.h */,
-				2A69E6251FE7A3D00068DCBC /* YGiftModel.m */,
-			);
-			path = mode;
-			sourceTree = "<group>";
-		};
-		2A69E6261FE7A3D00068DCBC /* view */ = {
-			isa = PBXGroup;
-			children = (
-				2A69E6271FE7A3D00068DCBC /* YLiveGiftView.h */,
-				2A69E6281FE7A3D00068DCBC /* YLiveGiftView.m */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		2AC7A3681FE3C51700AC9814 = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +121,7 @@
 		2AC7A3731FE3C51700AC9814 /* YLiveGiftView */ = {
 			isa = PBXGroup;
 			children = (
-				2A69E61D1FE7A3D00068DCBC /* YLiveGiftView */,
+				2AD47F7C1FE7A8AA00D3822A /* YLiveGiftView */,
 				2AC7A3741FE3C51700AC9814 /* AppDelegate.h */,
 				2AC7A3751FE3C51700AC9814 /* AppDelegate.m */,
 				2AC7A3771FE3C51700AC9814 /* ViewController.h */,
@@ -190,6 +151,45 @@
 				2AC7A39A1FE3C51700AC9814 /* Info.plist */,
 			);
 			path = YLiveGiftViewUITests;
+			sourceTree = "<group>";
+		};
+		2AD47F7C1FE7A8AA00D3822A /* YLiveGiftView */ = {
+			isa = PBXGroup;
+			children = (
+				2AD47F7D1FE7A8AA00D3822A /* componets */,
+				2AD47F7E1FE7A8AA00D3822A /* mode */,
+				2AD47F7F1FE7A8AA00D3822A /* view */,
+			);
+			path = YLiveGiftView;
+			sourceTree = "<group>";
+		};
+		2AD47F7D1FE7A8AA00D3822A /* componets */ = {
+			isa = PBXGroup;
+			children = (
+				2AD47F811FE7A8C600D3822A /* YChanelView.h */,
+				2AD47F831FE7A8C700D3822A /* YChanelView.m */,
+				2AD47F821FE7A8C700D3822A /* YGiftLabel.h */,
+				2AD47F801FE7A8C600D3822A /* YGiftLabel.m */,
+			);
+			path = componets;
+			sourceTree = "<group>";
+		};
+		2AD47F7E1FE7A8AA00D3822A /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				2AD47F8B1FE7A8CE00D3822A /* YGiftModel.h */,
+				2AD47F8A1FE7A8CE00D3822A /* YGiftModel.m */,
+			);
+			path = mode;
+			sourceTree = "<group>";
+		};
+		2AD47F7F1FE7A8AA00D3822A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2AD47F8F1FE7A8D600D3822A /* YLiveGiftView.h */,
+				2AD47F901FE7A8D600D3822A /* YLiveGiftView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,13 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A69E6321FE7A3D00068DCBC /* YLiveGiftView.m in Sources */,
+				2A95A4691FE7A93F006331C3 /* YChanelView.m in Sources */,
+				2A95A46B1FE7A93F006331C3 /* YGiftLabel.m in Sources */,
+				2A95A46D1FE7A93F006331C3 /* YGiftModel.m in Sources */,
+				2A95A46F1FE7A93F006331C3 /* YLiveGiftView.m in Sources */,
 				2AC7A3791FE3C51700AC9814 /* ViewController.m in Sources */,
 				2AC7A3841FE3C51700AC9814 /* main.m in Sources */,
-				2A69E62C1FE7A3D00068DCBC /* YGiftLabel.m in Sources */,
-				2A69E62F1FE7A3D00068DCBC /* YGiftModel.m in Sources */,
 				2AC7A3761FE3C51700AC9814 /* AppDelegate.m in Sources */,
-				2A69E6291FE7A3D00068DCBC /* YChanelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +339,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A69E6331FE7A3D00068DCBC /* YLiveGiftView.m in Sources */,
-				2A69E62D1FE7A3D00068DCBC /* YGiftLabel.m in Sources */,
+				2AD47F921FE7A8D600D3822A /* YLiveGiftView.m in Sources */,
+				2AD47F851FE7A8C700D3822A /* YGiftLabel.m in Sources */,
+				2AD47F881FE7A8C700D3822A /* YChanelView.m in Sources */,
 				2AC7A38E1FE3C51700AC9814 /* YLiveGiftViewTests.m in Sources */,
-				2A69E62A1FE7A3D00068DCBC /* YChanelView.m in Sources */,
-				2A69E6301FE7A3D00068DCBC /* YGiftModel.m in Sources */,
+				2AD47F8D1FE7A8CE00D3822A /* YGiftModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,11 +351,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A69E6341FE7A3D00068DCBC /* YLiveGiftView.m in Sources */,
-				2A69E62E1FE7A3D00068DCBC /* YGiftLabel.m in Sources */,
+				2AD47F931FE7A8D600D3822A /* YLiveGiftView.m in Sources */,
+				2AD47F861FE7A8C700D3822A /* YGiftLabel.m in Sources */,
+				2AD47F891FE7A8C700D3822A /* YChanelView.m in Sources */,
 				2AC7A3991FE3C51700AC9814 /* YLiveGiftViewUITests.m in Sources */,
-				2A69E62B1FE7A3D00068DCBC /* YChanelView.m in Sources */,
-				2A69E6311FE7A3D00068DCBC /* YGiftModel.m in Sources */,
+				2AD47F8E1FE7A8CE00D3822A /* YGiftModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

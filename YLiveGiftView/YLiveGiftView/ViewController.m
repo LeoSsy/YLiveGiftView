@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    _giftView = [[YLiveGiftView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
+    _giftView = [[YLiveGiftView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300) displayNum:3];
     [self.view addSubview:_giftView];
     
     _gifts = [NSMutableArray array];

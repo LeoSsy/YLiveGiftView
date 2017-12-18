@@ -36,8 +36,9 @@
     return _caches;
 }
 
-- (instancetype)initWithFrame:(CGRect)frame {
+- (instancetype)initWithFrame:(CGRect)frame displayNum:(NSInteger)num {
     if (self = [super initWithFrame:frame]) {
+        self.displayNum = num;
         [self setup];
     }
     return self;
@@ -46,6 +47,46 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     [self setup];
+}
+
+- (void)setDisplayNum:(NSInteger)displayNum {
+    _displayNum = displayNum;
+    [self.chanelViews removeAllObjects];
+    [self setup];
+}
+
+/**
+ 初始化
+ */
+- (void)setup{
+    CGFloat y = giftViewMargin;
+    CGFloat width = self.bounds.size.width*0.85;
+    NSInteger count = self.displayNum>0?self.displayNum:giftViewShowNum;
+    for (int i = 0 ; i < count ; i++) {
+        YChanelView *chanelView = [[YChanelView alloc] init];
+        chanelView.frame = CGRectMake(-[UIScreen mainScreen].bounds.size.width, y, width, giftViewHeight);
+        [self addSubview:chanelView];
+        y+= giftViewHeight + giftViewMargin;
+        [self.chanelViews addObject:chanelView];
+        //监听chanelView的动画完成回调
+        __weak typeof(self)weakSelf = self;
+        chanelView.completionn = ^(YChanelView *view) {
+            //执行完成后 继续去缓存中找是否有缓存
+            if (weakSelf.caches.firstObject == nil) { return;}
+            YGiftModel *mode = weakSelf.caches.firstObject;
+            view.giftModel = mode;
+            //删除已经使用的缓存
+            [weakSelf.caches removeObjectAtIndex:0];
+            //从后往前遍历 看缓存中是否存在相同的礼物模型 就将它的执行次数加1 同时删除当前位置对应的缓存
+            for (int i = (int)weakSelf.caches.count - 1 ; i>= 0 ; i--) {
+                YGiftModel *newModel  = weakSelf.caches[i];
+                if ([mode isEqual:newModel]) {
+                    [view addToWaitingQueue];
+                    [self.caches removeObjectAtIndex:i];
+                }
+            }
+        };
+    }
 }
 
 /**
@@ -96,37 +137,6 @@
     return nil;
 }
 
-/**
- 初始化
- */
-- (void)setup{
-    CGFloat y = giftViewMargin;
-    CGFloat width = self.bounds.size.width*0.85;
-    for (int i = 0 ; i < giftViewShowNum ; i++) {
-        YChanelView *chanelView = [[YChanelView alloc] init];
-        chanelView.frame = CGRectMake(-[UIScreen mainScreen].bounds.size.width, y, width, giftViewHeight);
-        [self addSubview:chanelView];
-        y+= giftViewHeight + giftViewMargin;
-        [self.chanelViews addObject:chanelView];
-        //监听chanelView的动画完成回调
-        __weak typeof(self)weakSelf = self;
-        chanelView.completionn = ^(YChanelView *view) {
-            //执行完成后 继续去缓存中找是否有缓存
-            if (weakSelf.caches.firstObject == nil) { return;}
-            YGiftModel *mode = weakSelf.caches.firstObject;
-            view.giftModel = mode;
-            //删除已经使用的缓存
-            [weakSelf.caches removeObjectAtIndex:0];
-            //同时要缓存中是否存在相同的礼物模型 就将它的执行次数加1 同时删除当前位置对应的缓存
-            for (int i = (int)weakSelf.caches.count - 1 ; i>= 0 ; i--) {
-                YGiftModel *newModel  = weakSelf.caches[i];
-                if ([mode isEqual:newModel]) {
-                    [view addToWaitingQueue];
-                    [self.caches removeObjectAtIndex:i];
-                }
-            }
-        };
-    }
-}
+
 
 @end
